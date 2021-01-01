@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Image, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 export default (() => {
 	return <Theme theme={theme}>
@@ -13,11 +13,7 @@ export default (() => {
 		</Helmet>
 		<Box background="#1d7be9" width="1280px" height="500px">
 			<Image width="775px" src="https://uploads.quarkly.io/5fe6130b04e716001efcb3ad/images/Screenshot%20(29).png?v=2020-12-28T05:37:52.425Z" />
-			<Text>
-				Some text
-			</Text>
 		</Box>
-		<Box />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
